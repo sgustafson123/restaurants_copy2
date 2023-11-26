@@ -21,7 +21,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "reactstrap": "^8.6.0",
-    "strapi": "^3.6.11"
+    "strapi": "^3.6.11",
+    "strapi-plugin-graphql": "^3.6.11"
   },
   "description": "Exercise05 is full Shopping Cart with Stripe Billing",
   "main": "index.js",
