@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "graphql": "^15.5.0",
     "knex": "0.21.18",
     "python": "^0.0.4",
     "sqlite3": "5.0.0",
@@ -19,15 +20,14 @@
     "strapi-plugin-content-manager": "3.6.8",
     "strapi-plugin-content-type-builder": "3.6.8",
     "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-graphql": "^3.6.8",
     "strapi-plugin-i18n": "3.6.8",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
     "strapi-stripe": "^3.4.1",
     "strapi-utils": "3.6.8"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
+  "author": "A Strapi developer",
   "strapi": {
     "uuid": "da96e95d-3cf0-4f61-bcb2-79575d636f9d"
   },
@@ -35,5 +35,6 @@
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js"
 }
