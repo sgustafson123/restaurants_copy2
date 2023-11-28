@@ -25,8 +25,7 @@ const GET_RESTAURANT_DISHES = gql`
         name
         description
         price
-        image {
-          url
+        image
         }
       }
     }
@@ -64,7 +63,7 @@ const GET_RESTAURANT_DISHES = gql`
                 <div className="card-footer">
                   <Button color="info"
                     outline
-                    color="primary"
+                    buttoncolor="primary"
                     onClick = {()=> addItem(res)}
                   >
                     + Add To Cart

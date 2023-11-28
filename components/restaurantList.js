@@ -25,6 +25,7 @@ function RestaurantList(props){
         id
         name
         description
+        logo
       }
     }
   `;
